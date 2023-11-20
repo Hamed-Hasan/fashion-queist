@@ -1,4 +1,23 @@
-.bg-blue-css{
+.bg-blue-css,.btn-design{
     background-color: #1A187A;
 }
 #navbarSupportedContent ul li a,.icons-font i{color: white;}
+
+#carouselExample {
+    background-image: url('/images/banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .carousel-item .d-flex {
+      flex-direction: column;
+    }
+    .carousel-item .text-right {
+      text-align: center;
+    }
+    .carousel-item img {
+      width: 100%;
+    }
+  }
+  
